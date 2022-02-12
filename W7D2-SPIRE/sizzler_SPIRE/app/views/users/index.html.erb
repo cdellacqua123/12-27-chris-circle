@@ -1,0 +1,4 @@
+<h1>Ammunation's VIP Customers</h1>
+<% @users.each do |user| %>
+    <%= render 'user', user: user, action: :index %>
+<% end %>
